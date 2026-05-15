@@ -2,11 +2,11 @@ Laravel 11.
 
 ~ php artisan serve
 
-Herramientas:
-- React
+Herramientas de momento:
+- Laravel + React
+- Shadcn
+
+Maybe later
 - Motion
 - GSAP
 - Three.js
-- Laravel
-- Laravel + React
-- Shadcn
