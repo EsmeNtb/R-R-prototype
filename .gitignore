@@ -1,4 +1,5 @@
 node_modules/
+prototype/storybook/
 
 package-lock.json
 package.json
