@@ -5,9 +5,12 @@
 /public/storage
 /storage/*.key
 /vendor
+/storage
 .env
 .env.backup
 .env.production
+.env.*
+!.env.example
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
@@ -17,3 +20,36 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+/dist
+/.vite
+
+/storybook-static
+
+# Testing / cache
+.phpunit.result.cache
+/.phpunit.cache
+/coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Composer auth
+auth.json
+
+# Local database backups
+*.sqlite-journal
+*.sql
+*.dump
+
+# Temporary files
+*.tmp
+*.temp
+*storybook.log
