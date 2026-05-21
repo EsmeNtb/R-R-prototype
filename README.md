@@ -8,13 +8,9 @@ The goal is to explore reusable UI components, animated product pages, editorial
 Herramientas de momento:
 - Laravel + React
 - Shadcn
-
-- Laravel 11
-- React
 - Inertia.js
 - TypeScript
 - Tailwind CSS
-- shadcn/ui
 
 ## Planned Tools
 
@@ -38,10 +34,11 @@ This repository works as a playground for testing:
 
 Start the Laravel server:
 
-```bash
+bash
 php artisan serve
 
 ## Project Structure
+```
 ├── prototype
     └── app
         ├── Http/
@@ -68,3 +65,4 @@ php artisan serve
     └── test
     └── public
     └── resources
+```
