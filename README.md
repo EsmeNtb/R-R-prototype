@@ -39,30 +39,36 @@ php artisan serve
 
 ## Project Structure
 ```
-├── prototype
-    └── app
-        ├── Http/
-        ├── Models/
-        └── Providers/
-    └── bootstrap
-    └── config
-    └── database
-        ├── factories/
-        ├── migrations/
-        └── seeders/
-    └── public
-    └── resources
-        ├── css/
-        ├── js/
-            ├── Components/
-            ├── Layouts/
-            ├── lib/
-            ├── pages/
-            └── types/
-        └── views/
-    └── routers
-    └── storage
-    └── test
-    └── public
-    └── resources
+├── 📁 images
+├── 📁 prototype
+|    └── 📁 .storybook
+|         ├── 📃main.ts
+|         ├── 📑preview.tsx
+|    └── 📁 app
+|         ├── 📁 Http/
+|         ├── 📁 Models/
+|         └── 📁 Providers/
+|    └── 📁 bootstrap
+|    └── 📁 config
+|    └── 📁 database
+|            ├── 📁 factories/
+|            ├── 📁 migrations/
+|            └── 📁 seeders/
+|    └── 📁 public
+|    └── 📁 resources
+|            ├── 📁 css/
+|            ├── 📁 js/
+|                 ├── 📁 Components/
+|                 ├── 📁 Layouts/
+|                 ├── 📁 lib/
+|                 ├── 📁 pages/
+|                 └── 📁 types/
+|            └── 📁 views/
+|    └── 📁 routers
+|    └── 📁 storage
+|    └── 📁 stories
+|    └── 📁 test
+|    └── 📁 public
+|    └── 📁 resources
+├── .gitignore
 ```
