@@ -45,22 +45,23 @@ export function Topbar_Item() {
       <MenubarMenu>
         <MenubarTrigger>Jewelry</MenubarTrigger>
         <MenubarContent>
-          <MenubarGroup>
-            <MenubarItem>
-              New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem>New Window</MenubarItem>
-          </MenubarGroup>
-          <MenubarSeparator />
-          <MenubarGroup>
-            <MenubarItem>Share</MenubarItem>
-            <MenubarItem>Print</MenubarItem>
-          </MenubarGroup>
+            <MenubarItem>Rings</MenubarItem>
+            <MenubarItem>Earrings</MenubarItem>
+            <MenubarItem>Necklaces</MenubarItem>
+            <MenubarItem>Bracelets</MenubarItem>
+            <MenubarItem>Bangles</MenubarItem>
+            <MenubarItem>Pendants</MenubarItem>
         </MenubarContent>
       </MenubarMenu>
         
       <MenubarMenu>  
         <MenubarTrigger>Accesories</MenubarTrigger>
+        <MenubarContent>
+            <MenubarItem>Hats</MenubarItem>
+            <MenubarItem>Hair Accesories</MenubarItem>          
+            <MenubarItem>Belts</MenubarItem>
+        </MenubarContent>
+
       </MenubarMenu>
 
       <MenubarMenu>
